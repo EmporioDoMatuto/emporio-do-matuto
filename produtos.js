@@ -223,8 +223,8 @@ const produtos = [
         categoria: "Carnes e preparados",
         preco: 50.00,
         unidade: "un",
-        promocao: true,
-        precoPromocional: 45.50,
+        promocao: false,
+        precoPromocional: null,
         imagem: "assets/produtos/buchada-4-bucho.jpg",
         disponivel: true
     },
@@ -243,10 +243,10 @@ const produtos = [
     {
         nome: "Linguiça suína apimentada 500g",
         categoria: "Carnes e preparados",
-        preco: 40.00,
+        preco: 36.00,
         unidade: "un",
-        promocao: true,
-        precoPromocional: 36.00,
+        promocao: false,
+        precoPromocional: null,
         imagem: "assets/produtos/linguica-suina-apimentada.jpg",
         disponivel: true
     },
@@ -265,10 +265,10 @@ const produtos = [
     {
         nome: "Sarapatel",
         categoria: "Carnes e preparados",
-        preco: 40.00,
+        preco: 36.00,
         unidade: "un",
-        promocao: true,
-        precoPromocional: 36.00,
+        promocao: false,
+        precoPromocional: null,
         imagem: "assets/produtos/sarapatel.jpg",
         disponivel: true
     },
