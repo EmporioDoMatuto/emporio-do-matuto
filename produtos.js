@@ -280,7 +280,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "assets/produtos/pacoca-de-carne-de-sol.jpg",
+        imagem: "assets/produtos/pacoca-carne-de-sol.jpg",
         disponivel: true
     },
 
@@ -329,7 +329,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "assets/produtos/manteiga-de-garrafa-1l.jpg",
+        imagem: "assets/produtos/manteiga-garrafa-1L.jpg",
         disponivel: true
     },
 
@@ -340,7 +340,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "assets/produtos/manteiga-de-garrafa-470ml.jpg",
+        imagem: "assets/produtos/manteiga-garrafa-470ml.jpg",
         disponivel: true
     },
 
@@ -351,7 +351,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "assets/produtos/gordura-de-porco-pote-maior.jpg",
+        imagem: "assets/produtos/gordura-de-porco.jpg",
         disponivel: true
     },
 
@@ -362,7 +362,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "assets/produtos/gordura-de-porco-pote-menor.jpg",
+        imagem: "assets/produtos/gordura-de-porco.jpg",
         disponivel: true
     },
 
@@ -422,7 +422,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "assets/produtos/bolacha-torrada-e-amanteigada.jpg",
+        imagem: "assets/produtos/bolacha-torrada-amanteigada.jpg",
         disponivel: true
     },
 
@@ -559,7 +559,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "assets/produtos/quebra-queixo-de-amendoim.jpg",
+        imagem: "assets/produtos/quebra-queixo-amendoim.jpg",
         disponivel: true
     },
 
@@ -570,7 +570,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "assets/produtos/quebra-queixo-de-coco.jpg",
+        imagem: "assets/produtos/quebra-queixo-coco.jpg",
         disponivel: true
     },
 
@@ -581,7 +581,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "assets/produtos/quebra-queixo-de-goiaba.jpg",
+        imagem: "assets/produtos/quebra-queixo-goiaba.jpg",
         disponivel: true
     },
 
@@ -603,7 +603,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "assets/produtos/rapadura-de-coco-120g.jpg",
+        imagem: "assets/produtos/rapadura-coco-120g.jpg",
         disponivel: true
     },
 
@@ -636,7 +636,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "assets/produtos/rapadurinha-de-coco-com-mamao-200g.jpg",
+        imagem: "assets/produtos/rapadurinha-coco-mamao-200g.jpg",
         disponivel: true
     },
 
@@ -647,7 +647,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "assets/produtos/rapadurinha-de-coco-200g.jpg",
+        imagem: "assets/produtos/rapadurinha-coco-200g.jpg",
         disponivel: true
     },
 
@@ -805,7 +805,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "assets/produtos/licor-de-banana.jpg",
+        imagem: "assets/produtos/licor-banana.jpg",
         disponivel: true
     },
 
@@ -816,7 +816,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "assets/produtos/licor-de-jenipapo.jpg",
+        imagem: "assets/produtos/licor-jenipapo.jpg",
         disponivel: true
     },
 
@@ -827,8 +827,19 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "assets/produtos/licor-de-tamarindo.jpg",
+        imagem: "assets/produtos/licor-tamarindo.jpg",
         disponivel: true
-    }
+    },
+
+    {
+        nome: "Licor de Cravo e Canela",
+        categoria: "Bebidas",
+        preco: 30.00,
+        unidade: "un",
+        promocao: false,
+        precoPromocional: null,
+        imagem: "assets/produtos/licor-cravo-e-canela.jpg",
+        disponivel: true
+    },
 
 ];
