@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Empório do Matuto - Produtos regionais, sabores da nossa terra e muito mais."
+    >
+
+    <meta name="theme-color" content="#321f14">
+
+    <title>Empório do Matuto</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ==========================================
+         CABEÇALHO
+    =========================================== -->
+
+    <header class="cabecalho">
+
+        <div class="container cabecalho-conteudo">
+
+            <a href="#inicio" class="logo-link">
+                <img
+                    src="./assets/logo.png"
+                    alt="Empório do Matuto"
+                    class="logo"
+                >
+            </a>
+
+            <button
+                id="botao-menu"
+                class="botao-menu"
+                type="button"
+                aria-label="Abrir menu"
+                aria-expanded="false"
+            >
+                ☰
+            </button>
+
+            <nav id="menu" class="menu">
+
+                <a href="#inicio">Início</a>
+
+                <a href="#produtos">Produtos</a>
+
+                <a href="#sobre">O Empório</a>
+
+                <a href="#contato">Contato</a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- ==========================================
+             HERO
+        =========================================== -->
+
+        <section id="inicio" class="hero">
+
+            <div class="hero-overlay">
+
+                <div class="container hero-conteudo">
+
+                    <span class="hero-subtitulo">
+                        SABORES DA NOSSA TERRA
+                    </span>
+
+                    <h1>
+                        Empório do Matuto
+                    </h1>
+
+                    <p>
+                        Produtos regionais, sabores especiais
+                        e aquele gostinho de casa.
+                    </p>
+
+                    <a
+                        href="#produtos"
+                        class="botao-principal"
+                    >
+                        Ver produtos
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==========================================
+             CATEGORIAS
+        =========================================== -->
+
+        <section class="categorias">
+
+            <div class="container">
+
+                <div class="secao-titulo">
+
+                    <span>
+                        ENCONTRE O QUE PROCURA
+                    </span>
+
+                    <h2>
+                        Nossas categorias
+                    </h2>
+
+                </div>
+
+
+                <div class="categorias-lista">
+
+                    <button
+                        class="categoria-botao ativo"
+                        type="button"
+                        data-categoria="todos"
+                    >
+                        Todos
+                    </button>
+
+                    <button
+                        class="categoria-botao"
+                        type="button"
+                        data-categoria="hortifruti"
+                    >
+                        Hortifruti
+                    </button>
+
+                    <button
+                        class="categoria-botao"
+                        type="button"
+                        data-categoria="mercearia"
+                    >
+                        Mercearia
+                    </button>
+
+                    <button
+                        class="categoria-botao"
+                        type="button"
+                        data-categoria="bebidas"
+                    >
+                        Bebidas
+                    </button>
+
+                    <button
+                        class="categoria-botao"
+                        type="button"
+                        data-categoria="doces"
+                    >
+                        Doces
+                    </button>
+
+                    <button
+                        class="categoria-botao"
+                        type="button"
+                        data-categoria="regionais"
+                    >
+                        Produtos regionais
+                    </button>
+
+                    <button
+                        class="categoria-botao"
+                        type="button"
+                        data-categoria="carnes e frios"
+                    >
+                        Carnes e frios
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==========================================
+             CATÁLOGO
+        =========================================== -->
+
+        <section
+            id="produtos"
+            class="produtos-secao"
+        >
+
+            <div class="container">
+
+                <div class="secao-titulo">
+
+                    <span>
+                        CATÁLOGO
+                    </span>
+
+                    <h2>
+                        Nossos produtos
+                    </h2>
+
+                </div>
+
+
+                <div class="pesquisa-container">
+
+                    <label
+                        for="pesquisa"
+                        class="sr-only"
+                    >
+                        Pesquisar produto
+                    </label>
+
+                    <input
+                        type="search"
+                        id="pesquisa"
+                        placeholder="Pesquisar produto..."
+                        autocomplete="off"
+                        aria-label="Pesquisar produto"
+                    >
+
+                </div>
+
+
+                <div
+                    id="catalogo"
+                    class="catalogo"
+                >
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==========================================
+             SOBRE
+        =========================================== -->
+
+        <section
+            id="sobre"
+            class="sobre"
+        >
+
+            <div class="container sobre-conteudo">
+
+                <div class="sobre-imagem">
+
+                    <div class="sobre-madeira">
+
+                        <span>
+                            EMPÓRIO DO MATUTO
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="sobre-texto">
+
+                    <span class="sobre-subtitulo">
+                        SOBRE O EMPÓRIO
+                    </span>
+
+                    <h2>
+                        O sabor da nossa terra
+                    </h2>
+
+                    <p>
+                        O Empório do Matuto reúne produtos
+                        selecionados para quem valoriza sabores,
+                        ingredientes e tradições da nossa região.
+                    </p>
+
+                    <p>
+                        Aqui você encontra produtos para o dia a
+                        dia e também aqueles sabores especiais
+                        que lembram a nossa terra.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==========================================
+             CONTATO
+        =========================================== -->
+
+        <section
+            id="contato"
+            class="contato"
+        >
+
+            <div class="container contato-conteudo">
+
+                <span class="contato-subtitulo">
+                    ACOMPANHE A GENTE
+                </span>
+
+                <h2>
+                    Empório do Matuto
+                </h2>
+
+                <p>
+                    Siga nosso Instagram e acompanhe
+                    nossas novidades.
+                </p>
+
+                <a
+                    href="https://www.instagram.com/emporio.do.matuto/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="instagram-botao"
+                >
+                    @emporio.do.matuto
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ==========================================
+         RODAPÉ
+    =========================================== -->
+
+    <footer class="rodape">
+
+        <div class="container rodape-conteudo">
+
+            <div class="rodape-logo">
+
+                <img
+                    src="./assets/logo.png"
+                    alt="Empório do Matuto"
+                >
+
+            </div>
+
+
+            <div class="rodape-info">
+
+                <p>
+                    Empório do Matuto
+                </p>
+
+                <a
+                    href="https://www.instagram.com/emporio.do.matuto/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    @emporio.do.matuto
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="rodape-final">
+
+            <p>
+                ©
+                <span id="ano-atual"></span>
+                Empório do Matuto.
+                Todos os direitos reservados.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ==========================================
+         VOLTAR AO TOPO
+    =========================================== -->
+
+    <button
+        id="voltar-topo"
+        class="voltar-topo"
+        type="button"
+        aria-label="Voltar ao topo"
+    >
+        ↑
+    </button>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
