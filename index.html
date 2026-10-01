@@ -4,31 +4,44 @@
 <head>
     <meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
     <meta
         name="description"
         content="Empório do Matuto - Produtos regionais, sabores da nossa terra e muito mais."
     >
 
-    <meta name="theme-color" content="#321f14">
+    <meta
+        name="theme-color"
+        content="#321f14"
+    >
 
     <title>Empório do Matuto</title>
 
-    <link rel="stylesheet" href="styles.css">
+    <link
+        rel="stylesheet"
+        href="styles.css"
+    >
 </head>
 
 <body>
 
-    <!-- ==========================================
+    <!-- ==================================================
          CABEÇALHO
-    =========================================== -->
+    =================================================== -->
 
     <header class="cabecalho">
 
         <div class="container cabecalho-conteudo">
 
-            <a href="#inicio" class="logo-link">
+            <a
+                href="#inicio"
+                class="logo-link"
+                aria-label="Ir para o início"
+            >
                 <img
                     src="./assets/logo.png"
                     alt="Empório do Matuto"
@@ -36,25 +49,40 @@
                 >
             </a>
 
+
             <button
                 id="botao-menu"
                 class="botao-menu"
                 type="button"
                 aria-label="Abrir menu"
                 aria-expanded="false"
+                aria-controls="menu"
             >
                 ☰
             </button>
 
-            <nav id="menu" class="menu">
 
-                <a href="#inicio">Início</a>
+            <nav
+                id="menu"
+                class="menu"
+                aria-label="Navegação principal"
+            >
 
-                <a href="#produtos">Produtos</a>
+                <a href="#inicio">
+                    Início
+                </a>
 
-                <a href="#sobre">O Empório</a>
+                <a href="#produtos">
+                    Produtos
+                </a>
 
-                <a href="#contato">Contato</a>
+                <a href="#sobre">
+                    O Empório
+                </a>
+
+                <a href="#contato">
+                    Contato
+                </a>
 
             </nav>
 
@@ -65,11 +93,14 @@
 
     <main>
 
-        <!-- ==========================================
-             HERO
-        =========================================== -->
+        <!-- ==================================================
+             INÍCIO / HERO
+        =================================================== -->
 
-        <section id="inicio" class="hero">
+        <section
+            id="inicio"
+            class="hero"
+        >
 
             <div class="hero-overlay">
 
@@ -79,14 +110,17 @@
                         SABORES DA NOSSA TERRA
                     </span>
 
+
                     <h1>
                         Empório do Matuto
                     </h1>
+
 
                     <p>
                         Produtos regionais, sabores especiais
                         e aquele gostinho de casa.
                     </p>
+
 
                     <a
                         href="#produtos"
@@ -102,9 +136,9 @@
         </section>
 
 
-        <!-- ==========================================
+        <!-- ==================================================
              CATEGORIAS
-        =========================================== -->
+        =================================================== -->
 
         <section class="categorias">
 
@@ -115,6 +149,7 @@
                     <span>
                         ENCONTRE O QUE PROCURA
                     </span>
+
 
                     <h2>
                         Nossas categorias
@@ -129,54 +164,67 @@
                         class="categoria-botao ativo"
                         type="button"
                         data-categoria="todos"
+                        aria-pressed="true"
                     >
                         Todos
                     </button>
+
 
                     <button
                         class="categoria-botao"
                         type="button"
                         data-categoria="hortifruti"
+                        aria-pressed="false"
                     >
                         Hortifruti
                     </button>
+
 
                     <button
                         class="categoria-botao"
                         type="button"
                         data-categoria="mercearia"
+                        aria-pressed="false"
                     >
                         Mercearia
                     </button>
+
 
                     <button
                         class="categoria-botao"
                         type="button"
                         data-categoria="bebidas"
+                        aria-pressed="false"
                     >
                         Bebidas
                     </button>
+
 
                     <button
                         class="categoria-botao"
                         type="button"
                         data-categoria="doces"
+                        aria-pressed="false"
                     >
                         Doces
                     </button>
+
 
                     <button
                         class="categoria-botao"
                         type="button"
                         data-categoria="regionais"
+                        aria-pressed="false"
                     >
                         Produtos regionais
                     </button>
+
 
                     <button
                         class="categoria-botao"
                         type="button"
                         data-categoria="carnes e frios"
+                        aria-pressed="false"
                     >
                         Carnes e frios
                     </button>
@@ -188,9 +236,9 @@
         </section>
 
 
-        <!-- ==========================================
+        <!-- ==================================================
              CATÁLOGO
-        =========================================== -->
+        =================================================== -->
 
         <section
             id="produtos"
@@ -205,12 +253,15 @@
                         CATÁLOGO
                     </span>
 
+
                     <h2>
                         Nossos produtos
                     </h2>
 
                 </div>
 
+
+                <!-- PESQUISA -->
 
                 <div class="pesquisa-container">
 
@@ -220,6 +271,7 @@
                     >
                         Pesquisar produto
                     </label>
+
 
                     <input
                         type="search"
@@ -232,9 +284,12 @@
                 </div>
 
 
+                <!-- PRODUTOS -->
+
                 <div
                     id="catalogo"
                     class="catalogo"
+                    aria-live="polite"
                 >
                 </div>
 
@@ -243,9 +298,9 @@
         </section>
 
 
-        <!-- ==========================================
-             SOBRE
-        =========================================== -->
+        <!-- ==================================================
+             SOBRE O EMPÓRIO
+        =================================================== -->
 
         <section
             id="sobre"
@@ -273,15 +328,18 @@
                         SOBRE O EMPÓRIO
                     </span>
 
+
                     <h2>
                         O sabor da nossa terra
                     </h2>
+
 
                     <p>
                         O Empório do Matuto reúne produtos
                         selecionados para quem valoriza sabores,
                         ingredientes e tradições da nossa região.
                     </p>
+
 
                     <p>
                         Aqui você encontra produtos para o dia a
@@ -296,9 +354,9 @@
         </section>
 
 
-        <!-- ==========================================
+        <!-- ==================================================
              CONTATO
-        =========================================== -->
+        =================================================== -->
 
         <section
             id="contato"
@@ -311,20 +369,24 @@
                     ACOMPANHE A GENTE
                 </span>
 
+
                 <h2>
                     Empório do Matuto
                 </h2>
+
 
                 <p>
                     Siga nosso Instagram e acompanhe
                     nossas novidades.
                 </p>
 
+
                 <a
                     href="https://www.instagram.com/emporio.do.matuto/"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="instagram-botao"
+                    aria-label="Abrir Instagram do Empório do Matuto"
                 >
                     @emporio.do.matuto
                 </a>
@@ -336,9 +398,9 @@
     </main>
 
 
-    <!-- ==========================================
+    <!-- ==================================================
          RODAPÉ
-    =========================================== -->
+    =================================================== -->
 
     <footer class="rodape">
 
@@ -359,6 +421,7 @@
                 <p>
                     Empório do Matuto
                 </p>
+
 
                 <a
                     href="https://www.instagram.com/emporio.do.matuto/"
@@ -387,9 +450,9 @@
     </footer>
 
 
-    <!-- ==========================================
+    <!-- ==================================================
          VOLTAR AO TOPO
-    =========================================== -->
+    =================================================== -->
 
     <button
         id="voltar-topo"
@@ -401,6 +464,14 @@
     </button>
 
 
+    <!-- ==================================================
+         JAVASCRIPT
+         
+         IMPORTANTE:
+         produtos.js precisa vir ANTES de script.js.
+    =================================================== -->
+
+    <script src="produtos.js"></script>
     <script src="script.js"></script>
 
 </body>
