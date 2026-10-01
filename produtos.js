@@ -187,7 +187,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "assets/produtos/pimentao.jpg",
+        imagem: "assets/produtos/pimentinha.jpg",
         disponivel: true
     },
 
@@ -252,9 +252,31 @@ const produtos = [
     },
 
     {
+        nome: "Linguiça de carneiro com queijo 500g",
+        categoria: "Carnes e preparados",
+        preco: 40.00,
+        unidade: "un",
+        promocao: false,
+        precoPromocional: null,
+        imagem: "assets/produtos/linguica-carneiro-queijo.jpg",
+        disponivel: true
+    },
+
+    {
+        nome: "Linguiça de carneiro 500g",
+        categoria: "Carnes e preparados",
+        preco: 35.00,
+        unidade: "un",
+        promocao: false,
+        precoPromocional: null,
+        imagem: "assets/produtos/linguica-carneiro.jpg",
+        disponivel: true
+    },
+
+    {
         nome: "Paçoca de carne de sol",
         categoria: "Carnes e preparados",
-        preco: 10.00,
+        preco: 15.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
@@ -274,10 +296,10 @@ const produtos = [
     },
 
     {
-        nome: "Torresmo",
+        nome: "Torresmo na embalagem de 500ml cheio",
         categoria: "Carnes e preparados",
-        preco: 10.00,
-        unidade: "kg",
+        preco: 25.00,
+        unidade: "un",
         promocao: false,
         precoPromocional: null,
         imagem: "assets/produtos/torresmo.jpg",
@@ -303,7 +325,7 @@ const produtos = [
     {
         nome: "Manteiga de garrafa 1L",
         categoria: "Queijos, manteigas e gorduras",
-        preco: 0.00,
+        preco: 40.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
@@ -314,7 +336,7 @@ const produtos = [
     {
         nome: "Manteiga de garrafa 470ml",
         categoria: "Queijos, manteigas e gorduras",
-        preco: 0.00,
+        preco: 28.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
@@ -325,7 +347,7 @@ const produtos = [
     {
         nome: "Gordura de porco — pote maior",
         categoria: "Queijos, manteigas e gorduras",
-        preco: 0.00,
+        preco: 10.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
@@ -336,7 +358,7 @@ const produtos = [
     {
         nome: "Gordura de porco — pote menor",
         categoria: "Queijos, manteigas e gorduras",
-        preco: 0.00,
+        preco: 8.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
@@ -566,7 +588,7 @@ const produtos = [
     {
         nome: "Rapadura de amendoim",
         categoria: "Doces e guloseimas",
-        preco: 0.00,
+        preco: 15.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
@@ -577,7 +599,7 @@ const produtos = [
     {
         nome: "Rapadura de coco 120g",
         categoria: "Doces e guloseimas",
-        preco: 0.00,
+        preco: 8.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
@@ -588,7 +610,7 @@ const produtos = [
     {
         nome: "Rapadura natural 120g",
         categoria: "Doces e guloseimas",
-        preco: 0.00,
+        preco: 8.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
@@ -599,7 +621,7 @@ const produtos = [
     {
         nome: "Rapadura natural 200g",
         categoria: "Doces e guloseimas",
-        preco: 0.00,
+        preco: 10.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
@@ -610,7 +632,7 @@ const produtos = [
     {
         nome: "Rapadurinha de coco com mamão 200g",
         categoria: "Doces e guloseimas",
-        preco: 0.00,
+        preco: 10.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
@@ -621,7 +643,7 @@ const produtos = [
     {
         nome: "Rapadurinha de coco 200g",
         categoria: "Doces e guloseimas",
-        preco: 0.00,
+        preco: 10.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
@@ -632,7 +654,7 @@ const produtos = [
     {
         nome: "Rapadurinha natural 200g",
         categoria: "Doces e guloseimas",
-        preco: 0.00,
+        preco: 10.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
@@ -648,7 +670,7 @@ const produtos = [
     {
         nome: "Molho de pimenta gourmet",
         categoria: "Molhos e pimentas",
-        preco: 0.00,
+        preco: 18.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
@@ -659,7 +681,7 @@ const produtos = [
     {
         nome: "Pimenta-caveira",
         categoria: "Molhos e pimentas",
-        preco: 0.00,
+        preco: 25.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
@@ -670,7 +692,7 @@ const produtos = [
     {
         nome: "Pimentinha",
         categoria: "Molhos e pimentas",
-        preco: 0.00,
+        preco: 0.20,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
@@ -686,7 +708,7 @@ const produtos = [
     {
         nome: "Tapioca",
         categoria: "Produtos regionais",
-        preco: 0.00,
+        preco: 12.00,
         unidade: "kg",
         promocao: false,
         precoPromocional: null,
@@ -702,7 +724,7 @@ const produtos = [
     {
         nome: "Cachaça do Matuto",
         categoria: "Bebidas",
-        preco: 0.00,
+        preco: 40.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
@@ -713,7 +735,7 @@ const produtos = [
     {
         nome: "Cachaça Serrana",
         categoria: "Bebidas",
-        preco: 0.00,
+        preco: 35.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
@@ -724,7 +746,7 @@ const produtos = [
     {
         nome: "Cajuína",
         categoria: "Bebidas",
-        preco: 0.00,
+        preco: 15.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
@@ -733,9 +755,9 @@ const produtos = [
     },
 
     {
-        nome: "Bagaceira",
+        nome: "Bagaceira (cachaça 20 anos)",
         categoria: "Bebidas",
-        preco: 0.00,
+        preco: 80.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
@@ -744,9 +766,9 @@ const produtos = [
     },
 
     {
-        nome: "Douradinho",
+        nome: "Douradinho (cachaça 20 anos)",
         categoria: "Bebidas",
-        preco: 0.00,
+        preco: 80.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
@@ -757,7 +779,7 @@ const produtos = [
     {
         nome: "Pingo de Ouro",
         categoria: "Bebidas",
-        preco: 0.00,
+        preco: 30.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
@@ -766,9 +788,20 @@ const produtos = [
     },
 
     {
+        nome: "Serenata",
+        categoria: "Bebidas",
+        preco: 35.00,
+        unidade: "un",
+        promocao: false,
+        precoPromocional: null,
+        imagem: "assets/produtos/serenata.jpg",
+        disponivel: true
+    },
+
+    {
         nome: "Licor de Banana",
         categoria: "Bebidas",
-        preco: 0.00,
+        preco: 30.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
@@ -779,7 +812,7 @@ const produtos = [
     {
         nome: "Licor de Jenipapo",
         categoria: "Bebidas",
-        preco: 0.00,
+        preco: 30.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
@@ -790,7 +823,7 @@ const produtos = [
     {
         nome: "Licor de Tamarindo",
         categoria: "Bebidas",
-        preco: 0.00,
+        preco: 30.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
