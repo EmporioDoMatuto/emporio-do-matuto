@@ -7,176 +7,198 @@ const produtos = [
     {
         nome: "Abacate",
         categoria: "Hortifruti",
-        preco: 0.00,
+        preco: 10.00,
         unidade: "kg",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/abacate.jpg",
+        imagem: "assets/produtos/abacate.jpg",
         disponivel: true
     },
 
     {
-        nome: "Abóbora",
+        nome: "Fatia Abóbora",
         categoria: "Hortifruti",
-        preco: 0.00,
-        unidade: "kg",
+        preco: 3.00,
+        unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/abobora.jpg",
+        imagem: "assets/produtos/abobora.jpg",
         disponivel: true
     },
 
     {
         nome: "Banana",
         categoria: "Hortifruti",
-        preco: 0.00,
-        unidade: "kg",
+        preco: 0.67,
+        unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/banana.jpg",
+        imagem: "assets/produtos/banana.jpg",
         disponivel: true
     },
 
     {
         nome: "Batata",
         categoria: "Hortifruti",
-        preco: 0.00,
+        preco: 7.00,
         unidade: "kg",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/batata.jpg",
+        imagem: "assets/produtos/batata.jpg",
         disponivel: true
     },
 
     {
         nome: "Batata-doce",
         categoria: "Hortifruti",
-        preco: 0.00,
+        preco: 7.00,
         unidade: "kg",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/batata-doce.jpg",
+        imagem: "assets/produtos/batata-doce.jpg",
         disponivel: true
     },
 
     {
         nome: "Beterraba",
         categoria: "Hortifruti",
-        preco: 0.00,
+        preco: 6.00,
         unidade: "kg",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/beterraba.jpg",
+        imagem: "assets/produtos/beterraba.jpg",
         disponivel: true
     },
 
     {
         nome: "Cebola",
         categoria: "Hortifruti",
-        preco: 0.00,
+        preco: 7.00,
         unidade: "kg",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/cebola.jpg",
+        imagem: "assets/produtos/cebola.jpg",
+        disponivel: true
+    },
+
+    {
+        nome: "Cenoura",
+        categoria: "Hortifruti",
+        preco: 7.00,
+        unidade: "kg",
+        promocao: false,
+        precoPromocional: null,
+        imagem: "assets/produtos/cenoura.jpg",
         disponivel: true
     },
 
     {
         nome: "Cheiro-verde",
         categoria: "Hortifruti",
-        preco: 0.00,
+        preco: 2.50,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/cheiro-verde.jpg",
+        imagem: "assets/produtos/cheiro-verde.jpg",
         disponivel: true
     },
 
     {
         nome: "Chuchu",
         categoria: "Hortifruti",
-        preco: 0.00,
+        preco: 6.00,
         unidade: "kg",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/chuchu.jpg",
+        imagem: "assets/produtos/chuchu.jpg",
         disponivel: true
     },
 
     {
         nome: "Laranja",
         categoria: "Hortifruti",
-        preco: 0.00,
-        unidade: "kg",
+        preco: 1.00,
+        unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/laranja.jpg",
+        imagem: "assets/produtos/laranja.jpg",
         disponivel: true
     },
 
     {
         nome: "Limão",
         categoria: "Hortifruti",
-        preco: 0.00,
+        preco: 14.00,
         unidade: "kg",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/limao.jpg",
+        imagem: "assets/produtos/limao.jpg",
         disponivel: true
     },
 
     {
         nome: "Maracujá",
         categoria: "Hortifruti",
-        preco: 0.00,
+        preco: 9.00,
         unidade: "kg",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/maracuja.jpg",
+        imagem: "assets/produtos/maracuja.jpg",
         disponivel: true
     },
 
     {
         nome: "Melão",
         categoria: "Hortifruti",
-        preco: 0.00,
+        preco: 8.00,
         unidade: "kg",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/melao.jpg",
+        imagem: "assets/produtos/melao.jpg",
         disponivel: true
     },
 
     {
         nome: "Pepino",
         categoria: "Hortifruti",
-        preco: 0.00,
+        preco: 6.00,
         unidade: "kg",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/pepino.jpg",
+        imagem: "assets/produtos/pepino.jpg",
         disponivel: true
     },
 
     {
         nome: "Pimentão",
         categoria: "Hortifruti",
-        preco: 0.00,
+        preco: 7.00,
         unidade: "kg",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/pimentao.jpg",
+        imagem: "assets/produtos/pimentao.jpg",
+        disponivel: true
+    },
+
+    {
+        nome: "Pimentinha",
+        categoria: "Hortifruti",
+        preco: 0.20,
+        unidade: "un",
+        promocao: false,
+        precoPromocional: null,
+        imagem: "assets/produtos/pimentao.jpg",
         disponivel: true
     },
 
     {
         nome: "Tomate",
         categoria: "Hortifruti",
-        preco: 0.00,
+        preco: 8.00,
         unidade: "kg",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/tomate.jpg",
+        imagem: "assets/produtos/tomate.jpg",
         disponivel: true
     },
 
@@ -188,77 +210,77 @@ const produtos = [
     {
         nome: "Buchada 2 bucho",
         categoria: "Carnes e preparados",
-        preco: 0.00,
+        preco: 25.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/buchada-2-bucho.jpg",
+        imagem: "assets/produtos/buchada-2-bucho.jpg",
         disponivel: true
     },
 
     {
         nome: "Buchada 4 bucho",
         categoria: "Carnes e preparados",
-        preco: 0.00,
+        preco: 50.00,
+        unidade: "un",
+        promocao: true,
+        precoPromocional: 45.50,
+        imagem: "assets/produtos/buchada-4-bucho.jpg",
+        disponivel: true
+    },
+
+    {
+        nome: "Carne de sol de Caicó - RN",
+        categoria: "Carnes e preparados",
+        preco: 65.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/buchada-4-bucho.jpg",
+        imagem: "assets/produtos/carne-de-sol.jpg",
         disponivel: true
     },
 
     {
-        nome: "Carne de sol",
+        nome: "Linguiça suína apimentada 500g",
         categoria: "Carnes e preparados",
-        preco: 0.00,
-        unidade: "kg",
-        promocao: false,
-        precoPromocional: null,
-        imagem: "imagens/carne-de-sol.jpg",
-        disponivel: true
-    },
-
-    {
-        nome: "Linguiça suína apimentada",
-        categoria: "Carnes e preparados",
-        preco: 0.00,
-        unidade: "kg",
-        promocao: false,
-        precoPromocional: null,
-        imagem: "imagens/linguica-suina-apimentada.jpg",
+        preco: 40.00,
+        unidade: "un",
+        promocao: true,
+        precoPromocional: 36.00,
+        imagem: "assets/produtos/linguica-suina-apimentada.jpg",
         disponivel: true
     },
 
     {
         nome: "Paçoca de carne de sol",
         categoria: "Carnes e preparados",
-        preco: 0.00,
+        preco: 10.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/pacoca-de-carne-de-sol.jpg",
+        imagem: "assets/produtos/pacoca-de-carne-de-sol.jpg",
         disponivel: true
     },
 
     {
         nome: "Sarapatel",
         categoria: "Carnes e preparados",
-        preco: 0.00,
+        preco: 40.00,
         unidade: "un",
-        promocao: false,
-        precoPromocional: null,
-        imagem: "imagens/sarapatel.jpg",
+        promocao: true,
+        precoPromocional: 36.00,
+        imagem: "assets/produtos/sarapatel.jpg",
         disponivel: true
     },
 
     {
         nome: "Torresmo",
         categoria: "Carnes e preparados",
-        preco: 0.00,
+        preco: 10.00,
         unidade: "kg",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/torresmo.jpg",
+        imagem: "assets/produtos/torresmo.jpg",
         disponivel: true
     },
 
@@ -268,13 +290,13 @@ const produtos = [
     // =====================================================
 
     {
-        nome: "Queijo coalho",
+        nome: "Queijo coalho de Jaguaribe - CE",
         categoria: "Queijos, manteigas e gorduras",
-        preco: 0.00,
+        preco: 65.00,
         unidade: "kg",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/queijo-coalho.jpg",
+        imagem: "assets/produtos/queijo-coalho.jpg",
         disponivel: true
     },
 
@@ -285,7 +307,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/manteiga-de-garrafa-1l.jpg",
+        imagem: "assets/produtos/manteiga-de-garrafa-1l.jpg",
         disponivel: true
     },
 
@@ -296,7 +318,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/manteiga-de-garrafa-470ml.jpg",
+        imagem: "assets/produtos/manteiga-de-garrafa-470ml.jpg",
         disponivel: true
     },
 
@@ -307,7 +329,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/gordura-de-porco-pote-maior.jpg",
+        imagem: "assets/produtos/gordura-de-porco-pote-maior.jpg",
         disponivel: true
     },
 
@@ -318,7 +340,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/gordura-de-porco-pote-menor.jpg",
+        imagem: "assets/produtos/gordura-de-porco-pote-menor.jpg",
         disponivel: true
     },
 
@@ -330,121 +352,121 @@ const produtos = [
     {
         nome: "Bolacha Acebolada",
         categoria: "Biscoitos, bolachas e quitandas",
-        preco: 0.00,
+        preco: 12.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/bolacha-acebolada.jpg",
+        imagem: "assets/produtos/bolacha-acebolada.jpg",
         disponivel: true
     },
 
     {
         nome: "Bolacha Crac",
         categoria: "Biscoitos, bolachas e quitandas",
-        preco: 0.00,
+        preco: 12.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/bolacha-crac.jpg",
+        imagem: "assets/produtos/bolacha-crac.jpg",
         disponivel: true
     },
 
     {
         nome: "Bolacha de alho",
         categoria: "Biscoitos, bolachas e quitandas",
-        preco: 0.00,
+        preco: 12.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/bolacha-de-alho.jpg",
+        imagem: "assets/produtos/bolacha-de-alho.jpg",
         disponivel: true
     },
 
     {
         nome: "Bolacha Delícia do Sertão",
         categoria: "Biscoitos, bolachas e quitandas",
-        preco: 0.00,
+        preco: 12.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/bolacha-delicia-do-sertao.jpg",
+        imagem: "assets/produtos/bolacha-delicia-do-sertao.jpg",
         disponivel: true
     },
 
     {
         nome: "Bolacha torrada e amanteigada",
         categoria: "Biscoitos, bolachas e quitandas",
-        preco: 0.00,
+        preco: 12.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/bolacha-torrada-e-amanteigada.jpg",
+        imagem: "assets/produtos/bolacha-torrada-e-amanteigada.jpg",
         disponivel: true
     },
 
     {
         nome: "Broa Romeu",
         categoria: "Biscoitos, bolachas e quitandas",
-        preco: 0.00,
+        preco: 10.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/broa-romeu.jpg",
+        imagem: "assets/produtos/broa-romeu.jpg",
         disponivel: true
     },
 
     {
         nome: "Broa Sequilhos Paulista",
         categoria: "Biscoitos, bolachas e quitandas",
-        preco: 0.00,
+        preco: 10.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/broa-sequilhos-paulista.jpg",
+        imagem: "assets/produtos/broa-sequilhos-paulista.jpg",
         disponivel: true
     },
 
     {
         nome: "Bulim Romeu",
         categoria: "Biscoitos, bolachas e quitandas",
-        preco: 0.00,
+        preco: 10.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/bulim-romeu.jpg",
+        imagem: "assets/produtos/bulim-romeu.jpg",
         disponivel: true
     },
 
     {
         nome: "Folheada do Sertão",
         categoria: "Biscoitos, bolachas e quitandas",
-        preco: 0.00,
+        preco: 12.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/folheada-do-sertao.jpg",
+        imagem: "assets/produtos/folheada-do-sertao.jpg",
         disponivel: true
     },
 
     {
         nome: "Goiabinha Sertaneja",
         categoria: "Biscoitos, bolachas e quitandas",
-        preco: 0.00,
+        preco: 12.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/goiabinha-sertaneja.jpg",
+        imagem: "assets/produtos/goiabinha-sertaneja.jpg",
         disponivel: true
     },
 
     {
         nome: "Rosca de milho",
         categoria: "Biscoitos, bolachas e quitandas",
-        preco: 0.00,
+        preco: 12.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/rosca-de-milho.jpg",
+        imagem: "assets/produtos/rosca-de-milho.jpg",
         disponivel: true
     },
 
@@ -456,88 +478,88 @@ const produtos = [
     {
         nome: "Cajuzinho 250g",
         categoria: "Doces e guloseimas",
-        preco: 0.00,
+        preco: 12.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/cajuzinho-250g.jpg",
+        imagem: "assets/produtos/cajuzinho-250g.jpg",
         disponivel: true
     },
 
     {
         nome: "Cocada branca",
         categoria: "Doces e guloseimas",
-        preco: 0.00,
+        preco: 15.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/cocada-branca.jpg",
+        imagem: "assets/produtos/cocada-branca.jpg",
         disponivel: true
     },
 
     {
         nome: "Cocada preta",
         categoria: "Doces e guloseimas",
-        preco: 0.00,
+        preco: 15.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/cocada-preta.jpg",
+        imagem: "assets/produtos/cocada-preta.jpg",
         disponivel: true
     },
 
     {
         nome: "Doce de leite cremoso 350g",
         categoria: "Doces e guloseimas",
-        preco: 0.00,
+        preco: 20.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/doce-de-leite-cremoso-350g.jpg",
+        imagem: "assets/produtos/doce-de-leite-cremoso-350g.jpg",
         disponivel: true
     },
 
     {
         nome: "Doce de leite granulado 350g",
         categoria: "Doces e guloseimas",
-        preco: 0.00,
+        preco: 20.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/doce-de-leite-granulado-350g.jpg",
+        imagem: "assets/produtos/doce-de-leite-granulado-350g.jpg",
         disponivel: true
     },
 
     {
         nome: "Quebra-queixo de amendoim",
         categoria: "Doces e guloseimas",
-        preco: 0.00,
+        preco: 6.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/quebra-queixo-de-amendoim.jpg",
+        imagem: "assets/produtos/quebra-queixo-de-amendoim.jpg",
         disponivel: true
     },
 
     {
         nome: "Quebra-queixo de coco",
         categoria: "Doces e guloseimas",
-        preco: 0.00,
+        preco: 6.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/quebra-queixo-de-coco.jpg",
+        imagem: "assets/produtos/quebra-queixo-de-coco.jpg",
         disponivel: true
     },
 
     {
         nome: "Quebra-queixo de goiaba",
         categoria: "Doces e guloseimas",
-        preco: 0.00,
+        preco: 6.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/quebra-queixo-de-goiaba.jpg",
+        imagem: "assets/produtos/quebra-queixo-de-goiaba.jpg",
         disponivel: true
     },
 
@@ -548,7 +570,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/rapadura-de-amendoim.jpg",
+        imagem: "assets/produtos/rapadura-de-amendoim.jpg",
         disponivel: true
     },
 
@@ -559,7 +581,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/rapadura-de-coco-120g.jpg",
+        imagem: "assets/produtos/rapadura-de-coco-120g.jpg",
         disponivel: true
     },
 
@@ -570,7 +592,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/rapadura-natural-120g.jpg",
+        imagem: "assets/produtos/rapadura-natural-120g.jpg",
         disponivel: true
     },
 
@@ -581,7 +603,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/rapadura-natural-200g.jpg",
+        imagem: "assets/produtos/rapadura-natural-200g.jpg",
         disponivel: true
     },
 
@@ -592,7 +614,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/rapadurinha-de-coco-com-mamao-200g.jpg",
+        imagem: "assets/produtos/rapadurinha-de-coco-com-mamao-200g.jpg",
         disponivel: true
     },
 
@@ -603,7 +625,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/rapadurinha-de-coco-200g.jpg",
+        imagem: "assets/produtos/rapadurinha-de-coco-200g.jpg",
         disponivel: true
     },
 
@@ -614,7 +636,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/rapadurinha-natural-200g.jpg",
+        imagem: "assets/produtos/rapadurinha-natural-200g.jpg",
         disponivel: true
     },
 
@@ -630,7 +652,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/molho-de-pimenta-gourmet.jpg",
+        imagem: "assets/produtos/molho-de-pimenta-gourmet.jpg",
         disponivel: true
     },
 
@@ -641,7 +663,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/pimenta-caveira.jpg",
+        imagem: "assets/produtos/pimenta-caveira.jpg",
         disponivel: true
     },
 
@@ -652,7 +674,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/pimentinha.jpg",
+        imagem: "assets/produtos/pimentinha.jpg",
         disponivel: true
     },
 
@@ -668,7 +690,7 @@ const produtos = [
         unidade: "kg",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/tapioca.jpg",
+        imagem: "assets/produtos/tapioca.jpg",
         disponivel: true
     },
 
@@ -684,7 +706,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/cachaca-do-matuto.jpg",
+        imagem: "assets/produtos/cachaca-do-matuto.jpg",
         disponivel: true
     },
 
@@ -695,7 +717,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/cachaca-serrana.jpg",
+        imagem: "assets/produtos/cachaca-serrana.jpg",
         disponivel: true
     },
 
@@ -706,7 +728,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/cajuina.jpg",
+        imagem: "assets/produtos/cajuina.jpg",
         disponivel: true
     },
 
@@ -717,7 +739,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/bagaceira.jpg",
+        imagem: "assets/produtos/bagaceira.jpg",
         disponivel: true
     },
 
@@ -728,7 +750,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/douradinho.jpg",
+        imagem: "assets/produtos/douradinho.jpg",
         disponivel: true
     },
 
@@ -739,7 +761,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/pingo-de-ouro.jpg",
+        imagem: "assets/produtos/pingo-de-ouro.jpg",
         disponivel: true
     },
 
@@ -750,7 +772,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/licor-de-banana.jpg",
+        imagem: "assets/produtos/licor-de-banana.jpg",
         disponivel: true
     },
 
@@ -761,7 +783,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/licor-de-jenipapo.jpg",
+        imagem: "assets/produtos/licor-de-jenipapo.jpg",
         disponivel: true
     },
 
@@ -772,7 +794,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "imagens/licor-de-tamarindo.jpg",
+        imagem: "assets/produtos/licor-de-tamarindo.jpg",
         disponivel: true
     }
 
