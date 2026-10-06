@@ -418,7 +418,7 @@ const produtos = [
     {
         nome: "Rapadura natural 200g",
         categoria: "Doces e guloseimas",
-        preco: 10.00,
+        preco: 12.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
@@ -429,7 +429,7 @@ const produtos = [
     {
         nome: "Rapadurinha de coco com mamão 200g",
         categoria: "Doces e guloseimas",
-        preco: 10.00,
+        preco: 12.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
@@ -440,7 +440,7 @@ const produtos = [
     {
         nome: "Rapadurinha de coco 200g",
         categoria: "Doces e guloseimas",
-        preco: 10.00,
+        preco: 12.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
@@ -451,7 +451,7 @@ const produtos = [
     {
         nome: "Rapadurinha natural 200g",
         categoria: "Doces e guloseimas",
-        preco: 10.00,
+        preco: 12.00,
         unidade: "un",
         promocao: false,
         precoPromocional: null,
@@ -483,17 +483,6 @@ const produtos = [
         promocao: false,
         precoPromocional: null,
         imagem: "assets/produtos/pimenta-caveira.jpg",
-        disponivel: true
-    },
-
-    {
-        nome: "Pimentinha",
-        categoria: "Molhos e pimentas",
-        preco: 0.20,
-        unidade: "un",
-        promocao: false,
-        precoPromocional: null,
-        imagem: "assets/produtos/pimentinha.jpg",
         disponivel: true
     },
 
@@ -552,7 +541,7 @@ const produtos = [
     },
 
     {
-        nome: "Bagaceira (cachaça 20 anos)",
+        nome: "Bagageira (cachaça 20 anos)",
         categoria: "Bebidas",
         preco: 80.00,
         unidade: "un",
