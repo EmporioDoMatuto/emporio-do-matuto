@@ -471,7 +471,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "assets/produtos/molho-de-pimenta-gourmet.jpg",
+        imagem: "assets/produtos/molho-pimenta-gourmet.jpg",
         disponivel: true
     },
 
@@ -547,7 +547,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "assets/produtos/bagaceira.jpg",
+        imagem: "assets/produtos/bagageira.jpg",
         disponivel: true
     },
 
