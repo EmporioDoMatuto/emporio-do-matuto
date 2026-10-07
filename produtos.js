@@ -574,17 +574,6 @@ const produtos = [
     },
 
     {
-        nome: "Serenata",
-        categoria: "Bebidas",
-        preco: 35.00,
-        unidade: "un",
-        promocao: false,
-        precoPromocional: null,
-        imagem: "assets/produtos/serenata.jpg",
-        disponivel: true
-    },
-
-    {
         nome: "Licor de Banana",
         categoria: "Bebidas",
         preco: 30.00,
