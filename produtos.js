@@ -389,7 +389,7 @@ const produtos = [
         unidade: "un",
         promocao: false,
         precoPromocional: null,
-        imagem: "assets/produtos/rapadura-de-amendoim.jpg",
+        imagem: "assets/produtos/rapadura-amendoim.jpg",
         disponivel: true
     },
 
